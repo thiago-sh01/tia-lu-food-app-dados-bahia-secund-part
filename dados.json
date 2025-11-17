@@ -1,0 +1,212 @@
+{
+    "itens": [
+        {
+            "codigo": 1,
+            "nome": "Smash Burger Classico",
+            "descricao": "P\u00c3\u00a3o brioche, carne smash 100g, queijo cheddar, cebola, picles e molho da casa.",
+            "preco": 18.0,
+            "estoque": 20
+        },
+        {
+            "codigo": 2,
+            "nome": "Cheddar Bacon",
+            "descricao": "Hamb\u00c3\u00barguer 120g, cheddar cremoso e bacon crocante.",
+            "preco": 25.0,
+            "estoque": 20
+        },
+        {
+            "codigo": 3,
+            "nome": "X-Egg Salada",
+            "descricao": "Hamb\u00c3\u00barguer 100g, ovo, queijo, alface e tomate no p\u00c3\u00a3o brioche.",
+            "preco": 20.0,
+            "estoque": 19
+        },
+        {
+            "codigo": 4,
+            "nome": "Duplo Monster",
+            "descricao": "Dois hamb\u00c3\u00bargueres 120g, cheddar duplo e bacon.",
+            "preco": 32.0,
+            "estoque": 14
+        },
+        {
+            "codigo": 5,
+            "nome": "Hot Dog Tradicional",
+            "descricao": "Salsicha, pur\u00c3\u00aa, milho, batata palha, ketchup e mostarda.",
+            "preco": 12.0,
+            "estoque": 30
+        },
+        {
+            "codigo": 6,
+            "nome": "Dog Texano",
+            "descricao": "Salsicha, chilli de carne, cheddar cremoso e cebola crispy.",
+            "preco": 18.0,
+            "estoque": 20
+        },
+        {
+            "codigo": 7,
+            "nome": "Dog Especial da Casa",
+            "descricao": "Duas salsichas, bacon, maionese temperada e molho especial.",
+            "preco": 16.0,
+            "estoque": 25
+        },
+        {
+            "codigo": 8,
+            "nome": "Frango com Creme de Ricota",
+            "descricao": "Frango desfiado, creme de ricota, alface e tomate no p\u00c3\u00a3o integral.",
+            "preco": 14.0,
+            "estoque": 18
+        },
+        {
+            "codigo": 9,
+            "nome": "Atum Fit",
+            "descricao": "Atum temperado com milho, cenoura ralada e alface.",
+            "preco": 13.0,
+            "estoque": 18
+        },
+        {
+            "codigo": 10,
+            "nome": "Veggie Grao-de-Bico",
+            "descricao": "Hamb\u00c3\u00barguer de grao-de-bico, alface, tomate e molho vegano.",
+            "preco": 17.0,
+            "estoque": 15
+        },
+        {
+            "codigo": 11,
+            "nome": "Batata Palito",
+            "descricao": "Por\u00c3\u00a7\u00c3\u00a3o 200g de batata frita crocante.",
+            "preco": 10.0,
+            "estoque": 40
+        },
+        {
+            "codigo": 12,
+            "nome": "Batata Cheddar e Bacon",
+            "descricao": "Batata frita coberta com cheddar cremoso e bacon picado.",
+            "preco": 18.0,
+            "estoque": 25
+        },
+        {
+            "codigo": 13,
+            "nome": "Onion Rings",
+            "descricao": "An\u00c3\u00a9is de cebola empanados e crocantes.",
+            "preco": 14.0,
+            "estoque": 19
+        },
+        {
+            "codigo": 14,
+            "nome": "Refrigerante Lata",
+            "descricao": "Lata 350ml \u00e2\u20ac\u201c diversos sabores.",
+            "preco": 6.0,
+            "estoque": 49
+        },
+        {
+            "codigo": 15,
+            "nome": "Suco Natural",
+            "descricao": "Laranja, lim\u00c3\u00a3o, abacaxi ou maracuj\u00c3\u00a1.",
+            "preco": 8.0,
+            "estoque": 29
+        },
+        {
+            "codigo": 16,
+            "nome": "Milkshake",
+            "descricao": "Sabores: chocolate, morango ou Oreo.",
+            "preco": 15.0,
+            "estoque": 20
+        },
+        {
+            "codigo": 17,
+            "nome": "Brownie Caseiro",
+            "descricao": "Brownie de chocolate com casquinha crocante.",
+            "preco": 8.0,
+            "estoque": 24
+        },
+        {
+            "codigo": 18,
+            "nome": "Pudim no Pote",
+            "descricao": "Pudim de leite condensado cremoso.",
+            "preco": 7.0,
+            "estoque": 25
+        },
+        {
+            "codigo": 19,
+            "nome": "Acai no Copo",
+            "descricao": "Copo 300ml com granola e banana.",
+            "preco": 12.0,
+            "estoque": 30
+        },
+        {
+            "codigo": 20,
+            "nome": "",
+            "descricao": "",
+            "preco": 2.5,
+            "estoque": 149
+        }
+    ],
+    "pedidos": [
+        {
+            "codigo": 1,
+            "cliente": "Iran",
+            "itens": [
+                {
+                    "codigo": 13,
+                    "nome": "Onion Rings",
+                    "preco": 14.0,
+                    "quantidade": 1
+                },
+                {
+                    "codigo": 4,
+                    "nome": "Duplo Monster",
+                    "preco": 32.0,
+                    "quantidade": 1
+                },
+                {
+                    "codigo": 14,
+                    "nome": "Refrigerante Lata",
+                    "preco": 6.0,
+                    "quantidade": 1
+                }
+            ],
+            "total": 52.0,
+            "status": "ENTREGUE"
+        },
+        {
+            "codigo": 2,
+            "cliente": "Eveny",
+            "itens": [
+                {
+                    "codigo": 17,
+                    "nome": "Brownie Caseiro",
+                    "preco": 8.0,
+                    "quantidade": 1
+                },
+                {
+                    "codigo": 3,
+                    "nome": "X-Egg Salada",
+                    "preco": 20.0,
+                    "quantidade": 1
+                },
+                {
+                    "codigo": 15,
+                    "nome": "Suco Natural",
+                    "preco": 8.0,
+                    "quantidade": 1
+                }
+            ],
+            "total": 36.0,
+            "status": "ACEITO"
+        },
+        {
+            "codigo": 3,
+            "cliente": "Aloisio",
+            "itens": [
+                {
+                    "codigo": 20,
+                    "nome": "",
+                    "preco": 2.5,
+                    "quantidade": 1
+                }
+            ],
+            "total": 2.5,
+            "status": "CANCELADO"
+        }
+    ]
+}
